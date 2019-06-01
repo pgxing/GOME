@@ -1,0 +1,53 @@
+{
+    "product" : [
+        {
+            "img": "http://localhost/GOME/src/images/mdsf.png",
+            "oldprice" : "￥99.00",
+            "nowprice" : "￥89.00",
+            "title": "美的(Midea) MK-HJ1522 电热水壶 1.5L 双重防烫 家用烧水壶"
+        },
+        {
+            "img": "http://localhost/GOME/src/images/mdfb.png",
+            "oldprice" : "￥109.00",
+            "nowprice" : "￥99.00",
+            "title": "美的(Midea) 电饭煲 精铸发热盘 机械式功能控制 3L家用小电饭锅 MB-WYJ301"
+        },
+        {
+            "img": "http://localhost/GOME/src/images/ancd.png",
+            "oldprice" : "￥19.90",
+            "nowprice" : "5.90",
+            "title": "Aogress YW-03 鱼纹防摇晃Type-C数据线 100CM长 蓝色"
+        },
+        {
+            "img": "http://localhost/GOME/src/images/yfj.png",
+            "oldprice" : "￥12.50",
+            "nowprice" : "￥9.90",
+            "title": "蜗家裤架加固铁艺裤挂S形多功能魔术裤夹裤子衣架衣柜收纳(白色 1)"
+        },
+        {
+            "img": "http://localhost/GOME/src/images/zjt.png",
+            "oldprice" : "￥18.00",
+            "nowprice" : "￥35.00",
+            "title": "磐鼎 带开关一拖三点烟器双USB汽车用一分三电源分配器车载充电器(象牙白)"
+        },
+        {
+            "img": "http://localhost/GOME/src/images/guox.png",
+            "oldprice" : "￥59.00",
+            "nowprice" : "￥49.00",
+            "title": "LOUIS ROYER利蜂法国一片式裹胸纯色简约运动女士无痕聚拢文胸 粉色灰色黑色(黑色 S)"
+        },
+        {
+            "img": "http://localhost/GOME/src/images/dylg.png",
+            "oldprice" : "￥359.00",
+            "nowprice" : "￥249.00",
+            "title": "苏泊尔（Supor）SY-50YC8101Q苏泊尔电压力锅高压饭煲双胆5L家用官方旗舰店3-4-5-6人(5升球釜电压力锅)"
+        },
+        {
+            "img" : "http://localhost/GOME/src/images/qdbb.png",
+            "oldprice" : "￥98.00",
+            "nowprice" : "￥88.00",
+            "title" : "VOV薇欧薇焕亮星辰恒颜气垫BB霜 网红cc霜保湿遮瑕粉底液自然服帖(亮肤色)"
+        }
+
+    ]
+}

@@ -1,0 +1,56 @@
+header,.footCon,.registerBox{width: 990px;margin: 0 auto}
+a{color: #888}
+a:hover{color: #f70a0a}
+/* header */
+.headBox{width: 100%;height: 120px;}
+header{height: 120px;}
+header div:nth-child(1){width: 300px;height: 90px;float: left;padding-top: 30px;}
+header div:nth-child(1) a{float: left;}
+header div:nth-child(1)>img{float: left;margin: 2px 0 0 3px;;}
+header div:nth-child(2){width: 150px;height: 20px;float: right;padding: 100px 0 0 150px;font-size: 12px;}
+header div:nth-child(2) a{color: #0d4e8f}
+header div:nth-child(2) a:hover{color: #f70a0a}
+
+/* registerBox */
+.registerBox{height: 562px;background: url(../images/registerbanner.png) no-repeat scroll 580px -60px;border: 1px solid #ccc}
+.registerBox form{width: 990px;height: 522px;padding-top: 40px}
+.registerBox form>div{width: 839px;height: 40px;padding: 0 0 26px 151px;position: relative;}
+.registerBox form>div:nth-last-child(1){height: 35px;width: 839px;}
+.registerBox label{position: absolute;width: 151px;height: 40px;top: 0;left: 0;text-align: right;font-size: 14px;line-height: 40px;color:#888;}
+.registerBox input{width: 288px;height: 38px;padding: 0 4px; border: 1px solid #ccc}
+.registerBox form>div:nth-child(6) input{width: 133px;float: left;}
+.registerBox form>div:nth-child(6) a{display: block;width: 104px;height: 38px;line-height: 38px;text-align: center;font-size: 12px;float: left;border: 1px solid #ccc;margin-left: 15px;color: #000}
+.registerBox form>div:nth-child(6) a:hover{border-color: #333333}
+
+.sec{width: 300px;height: 40px;float: left;position: relative;cursor: pointer;}
+.sec p{width: 300px;height: 40px;background: gainsboro;line-height: 40px;font-size: 12px;text-align: center;color: gray;}
+.sec span{display: block;width: 36px;height: 36px;background: #fff;border: 2px solid #ccc;position: absolute;top:0;left: 0;line-height: 36px;text-align: center;color:gray;}
+.box1{height: 40px;position: absolute;top: 0;background:#06d818;left: 0;line-height: 40px;color: #fff;text-align: center;}
+.registerBox .registerBtn{width: 288px;height: 38px;padding: 0 4px;border:0;cursor: pointer;background: #ff5757;margin-top: 5px;font-size: 16px;color: #fff;line-height: 38px;}
+/* footer */
+footer{width: 100%;height: 314px;border-top: 1px solid #dd00a7;background: #fff}
+footer .footCon{height: 314px;}
+footer .footCont{height: 242px;width: 990px;border-bottom: 1px solid #e6e6e6}
+footer .footConb{height: 60px;width: 990px;padding-top: 12px;}
+footer .footConb a{display: block;height: 30px;margin-right: 29px;float: left;}
+footer .footConb a img{float: left;}
+footer .footConb a div{font-size: 12px;margin-left: 12px;float: left;}
+
+footer .footConl{width: 990px;height: 242px;float: left;}
+footer .footConl .footConltop{height: 85px;width: 990px;padding-top: 20px}
+footer .footConl .footConltop>div{height: 46px;float: left;}
+footer .footConl .footConltop>div:nth-child(2){margin-left: 116px}
+footer .footConl .footConltop>div img{float: left;}
+footer .footConl .footConltop>div div{height: 46px;float: left;margin-left: 12px;}
+footer .footConl .footConltop>div div p:nth-child(1){font-size:16px;color: #333333;height: 26px;line-height: 26px}
+footer .footConl .footConltop>div div p:nth-child(2){font-size:12px;height: 20px;line-height: 20px;}
+footer .footConl .footConlbom{height: 137px;width: 990px;}
+.footConl .footConlbom .footconlbt{height: 16px;width: 990px;padding-top: 4px}
+.footConl .footConlbom .footconlbt ul{height: 12px;float: left;border-right: 1px solid #d4ccd4;line-height: 12px;}
+.footConl .footConlbom .footconlbt ul:nth-child(2){margin-left: 13px;}
+.footConl .footConlbom .footconlbt ul:nth-child(3){border: 0;margin-left: 13px}
+.footConl .footConlbom .footconlbt ul li{float: left;margin-right:13px;}
+.footConlbom .footconlbt ul li a{display:block;font-size: 12px;color: #666;}
+.footConlbom .footconlbt ul li a:hover{color: #d91e27}
+.footConl .footConlbom .footconlbb{height: 117px;width: 990px;}
+.footConlbom .footconlbb p{height: 22px;line-height: 22px;font-size: 12px;color: #888}

@@ -1,0 +1,151 @@
+a{color: #888}
+a:hover{color: #f4044a}
+/*header*/
+header{width: 100%;height: 30px;background: #f8f8f8;position: relative;z-index: 1000;}
+header .headerCon{height: 30px;width: 990px;margin: 0 auto}
+.headerConl{width: 211px;height: 30px;float: left;background: #f8f8f8}
+.headerConr{width: 505px;height: 30px;float: right;background: #f8f8f8}
+.headerCon li{height:28px;line-height: 28px;text-align: center;float: left;padding:0 10px;font-size: 12px;color: #888;position: relative;border : 1px solid #f8f8f8;border-bottom: 0;z-index: 100;}
+.headerConl li:nth-child(3) a{color: #d91e27;}
+header .headerCon .finds{position: absolute;display: none;background: #fff;border : 1px solid #bcbcbc;border-top: 0;top:29px;z-index: 1000;}
+.headerConl .myvip{width: 290px;height: 190px;left: -1px;}
+
+.myvip .myvipTop{width: 270px;height: 70px;padding-top: 10px;border-bottom: 1px solid #bcbcbc;margin: 0 10px;}
+.myvip .myvipTop img{width: 60px;height: 60px;display: block;float: left;margin-left: 10px}
+.myvip .myvipTop i{height:60px;float: left;line-height: 60px;margin-left: 10px;font-size: 12px}
+.myvip .myvipTop a{color: #1d519a}
+.myvip .myvipTop a:hover{color: #d91e27}
+.myvip .myvipBtom{width: 290px;height: 110px;position: relative;z-index: 1000;}
+.myvip .myvipBtom .club{height: 40px;width: 290px;}
+.myvip .myvipBtom .club b:nth-child(1){float: left;color: #000;font-size: 12px;margin-left: 10px;height: 40px;line-height: 40px}
+.myvip .myvipBtom .club b:nth-child(2){float: right;color: #707070;font-size: 12px;margin-right: 10px;height: 40px;line-height: 40px}
+.myvip .myvipBtom .clubCon{height: 70px;width: 290px;}
+.myvip .imgshow{width:290px;height:70px;position: relative;overflow: hidden;}
+.myvip .imgBoxp{height:70px;position: absolute}
+.myvip .imgBoxp .imgBox{height: 70px;width: 290px;float:left;}
+.myvip .imgBoxp img{width:210px;height:60px;margin: 5px 40px;}
+.myvip .imgshow span{display:block;width:20px;height:30px;text-align: center;line-height: 30px;font-size:30px;position:absolute;color:#bcbcbc;cursor: pointer;top:18px}
+.myvip .imgshow span:hover{color:#888}
+.myvip .imgshow span:nth-of-type(1){left:0;}
+.myvip .imgshow span:nth-of-type(2){right:9px;}
+
+
+.headerConr .mygome{width: 234px;height: 295px;left: -1px;}
+.mygome .mygomeTop{width: 210px;height: 84px;text-align: initial;margin: 0 12px;border-bottom: 1px solid #bcbcbc}
+.mygomeTop .mygomeTopt{width: 222px;height: 25px;font-weight: 900}
+.mygomeTop .mygomeTopt a{color: #1d519a}
+.mygomeTop .mygomeTopb{width: 222px;height: 60px;}
+.mygomeTop .mygomeTopb .mygomeTopbl{width: 111px;height: 60px;float: left;}
+.mygomeTop .mygomeTopb .mygomeTopbr{width: 111px;height: 60px;float: left;}
+.mygomeTop a{font-size: 12px;}
+.mygome .mygomeCon{width: 222px;height: 120px;margin-left: 12px}
+.mygome .mygomeCon>div{width: 55px;height: 60px;float: left;}
+.mygome .mygomeCon>div span{display: block;width: 55px;height: 30px;line-height: 30px;text-align: center;font-size: 12px}
+.mygome .mygomeBom{width: 224px;height: 90px;background: #f8f8f8;padding-left: 10px}
+.mygome .mygomeBom p:nth-child(1){width: 222px;height: 30px;line-height: 30px;font-size: 12px;color: #707070;text-align: initial}
+.mygome .mygomeBom p:nth-child(2) img{width: 55px;height: 40px;display: block;float: left;}
+
+.headerConr .purchase{width: 210px;height: 210px;right: -1px;}
+.purchase img{width:100%;height: 100%;}
+.headerConr .server{width: 218px;height: 184px;left: -1px;}
+.server .serverTop{width: 218px;height: 72px;}
+.server .serverTop ul{width: 218px;height: 24px;}
+.server .serverTop h3{width: 208px;height: 24px;font-size: 12px;font-weight: 900;text-align: initial;padding-left: 10px}
+.server .serverTop ul li{height: 24px;line-height: 24px;text-align: center;border: 0;}
+.server .serverBtm{width: 218px;height: 22px;}
+.server .serverBtm a{width: 192px;height: 22px;background: #dd00a7;color: #fff;line-height: 20px;text-align: center;font-size: 12px;margin: 9px 12px;display: block;}
+
+.headerConr .webnav{width: 1200px;height: 148px;right: -98px;padding: 26px 0;}
+.webnav>div{border-right: 1px solid #f8f8f8;padding: 0 12px;}
+.webnav .webnavFir{width: 256px;height: 148px;float: left;}
+.webnav .webnavSec{width: 406px;height: 148px;float: left;}
+.webnav .webnavThr{width: 184px;height: 148px;float: left;}
+.webnav .webnavFor{width: 106px;height: 148px;float: left;}
+.webnav .webnavFiv{width: 124px;height: 148px;float: left;border: 0;}
+.webnav div h3{height: 28px;text-align: initial;font-size: 14px;line-height: 28px;padding-left: 10px}
+.webnav .webnavCon ul{height: 100px;float: left;}
+.webnav .webnavCon ul li{height: 24px;line-height: 24px;font-size: 12px;border: 0;}
+.webnav .webnavFir ul{width: 85px;}
+.webnav .webnavSec ul{width: 81px;}
+.webnav .webnavThr ul{width: 92px;}
+.webnav .webnavFor ul{width: 106px;}
+.webnav .webnavFiv ul{width: 124px;}
+.webnav .webnavCon{height: 100px;}
+.headerConr .phonegome{width: 144px;height: 182px;right: -1px;}
+.headerConr .phonegome img{width: 100%;height: 100%;}
+.webMes{position: relative;}
+.webMes img{display: block;width: 15px;height: 20px;position: absolute;right: -8px;top:-3px;}
+header .headerCon .show{display: block}
+
+.headBox{width: 100%;height: 120px;}
+section{height: 120px;width: 990px;margin: 0 auto}
+section div:nth-child(1){width: 300px;height: 90px;float: left;padding-top: 30px;}
+section div:nth-child(1) a{float: left;}
+section div:nth-child(1)>img{float: left;margin: 2px 0 0 3px;;}
+section div:nth-child(2){width: 150px;height: 20px;float: right;padding: 100px 0 0 150px;font-size: 14px;}
+section div:nth-child(2) a{color: #494a4b}
+section div:nth-child(2) a:hover{color: #f70a0a}
+
+
+
+/* prosMenu */
+.prosMenu{width: 990px;height: 44px;background: #eee;width: 988px;border: 1px solid #e6e6e6;border-radius: 3px;margin: 0 auto;}
+.prosMenu div{line-height: 44px;color: rgb(51,51,51);float: left;}
+.prosMenu div:nth-of-type(1){width: 40px;height: 44px;}
+.prosMenu div:nth-of-type(1) input{width: 14px;height: 14px;font-size: 100%;margin-left: 10px}
+.prosMenu label{width: 91px;height: 44px;float: left;text-align: center;line-height: 44px}
+.prosMenu div:nth-of-type(2){width: 389px;height: 44px;}
+.prosMenu div:nth-of-type(3){width: 155px;height: 44px;}
+.prosMenu div:nth-of-type(4){width: 80px;height: 44px;}
+.prosMenu div:nth-of-type(5){width: 84px;height: 44px;padding-right: 70px;text-align: right}
+.prosMenu div:nth-of-type(6){width: 79px;height: 44px;}
+/* content*/
+.content{width: 990px;min-height: 300px;margin: 15px auto}
+.content .carsPro{width: 988px;height: 102px;border: 1px solid #e6e6e6;border-radius: 2px;background: #fffaf4;padding-top: 20px;margin-bottom: 20px;}
+.content .carsPro .carsProL{width: 340px;height: 102px;float: left;}
+.carsPro .carsProL .carsProLL{width: 40px;height: 54px;float: left;}
+.carsProL .carsProLL input{width: 14px;height: 14px;font-size: 100%;margin-left: 10px;}
+.carsPro .carsProL .carsProLC{width: 91px;height: 102px;float: left;}
+.carsPro .carsProL .carsProLC img{display: block;width: 80px;height: 80px;}
+.carsPro .carsProL .carsProLR{width: 208px;height: 87px;float: left;}
+.carsPro .carsProL .carsProLR a{color: #333;font-size: 12px;text-align: initial}
+.carsPro .carsProL .carsProLR a:hover{color: #d91e27}
+.content .carsPro .carsProR{width: 468px;height: 102px;float: right;}
+.content .carsPro .carsProR .carProRl{width: 155px;height: 27px;float: left;line-height: 27px;color: rgb(51,51,51);font-size: 12px;}
+.content .carsPro .carsProR .carProRC{width: 78px;height: 20px;float: left;border: 1px solid #888}
+.content .carsPro .carsProR .carProRC span{display:block;height: 20px;width:17px;float: left;line-height: 20px;text-align: center;font-size: 14px;cursor: pointer;border-right: 1px solid #888}
+.content .carsPro .carsProR .carProRC span:nth-child(2){height: 20px;width: 42px;font-size: 12px;}
+.content .carsPro .carsProR .carProRC span:nth-child(3){border: 0;}
+.content .carsPro .carsProR .carProRR{width: 84px;height: 19px;float: left;padding-right: 70px;text-align: right;font-size: 14px;font-weight: 700px}
+.content .carsPro .carsProR .carProLast{width: 79px;height: 42px;float: left;}
+.content .carsPro .carsProR .carProLast a{display: block;width: 79px;height: 21px;line-height: 21px;font-size: 12px;}
+
+
+
+/* footer */
+footer{width: 100%;height: 314px;border-top: 1px solid #dd00a7;background: #fff}
+footer .footCon{height: 314px;width: 990px;margin: 0 auto}
+footer .footCont{height: 242px;width: 990px;border-bottom: 1px solid #e6e6e6}
+footer .footConb{height: 60px;width: 990px;padding-top: 12px;}
+footer .footConb a{display: block;height: 30px;margin-right: 29px;float: left;}
+footer .footConb a img{float: left;}
+footer .footConb a div{font-size: 12px;margin-left: 12px;float: left;}
+
+footer .footConl{width: 990px;height: 242px;float: left;}
+footer .footConl .footConltop{height: 85px;width: 990px;padding-top: 20px}
+footer .footConl .footConltop>div{height: 46px;float: left;}
+footer .footConl .footConltop>div:nth-child(2){margin-left: 116px}
+footer .footConl .footConltop>div img{float: left;}
+footer .footConl .footConltop>div div{height: 46px;float: left;margin-left: 12px;}
+footer .footConl .footConltop>div div p:nth-child(1){font-size:16px;color: #333333;height: 26px;line-height: 26px}
+footer .footConl .footConltop>div div p:nth-child(2){font-size:12px;height: 20px;line-height: 20px;}
+footer .footConl .footConlbom{height: 137px;width: 990px;}
+.footConl .footConlbom .footconlbt{height: 16px;width: 990px;padding-top: 4px}
+.footConl .footConlbom .footconlbt ul{height: 12px;float: left;border-right: 1px solid #d4ccd4;line-height: 12px;}
+.footConl .footConlbom .footconlbt ul:nth-child(2){margin-left: 13px;}
+.footConl .footConlbom .footconlbt ul:nth-child(3){border: 0;margin-left: 13px}
+.footConl .footConlbom .footconlbt ul li{float: left;margin-right:13px;}
+.footConlbom .footconlbt ul li a{display:block;font-size: 12px;color: #666;}
+.footConlbom .footconlbt ul li a:hover{color: #d91e27}
+.footConl .footConlbom .footconlbb{height: 117px;width: 990px;}
+.footConlbom .footconlbb p{height: 22px;line-height: 22px;font-size: 12px;color: #888}

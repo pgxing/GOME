@@ -1,0 +1,405 @@
+.newsBox,.headerCon,.logoBox,.navCon,.banner,.prods,.shopsBox,.coupon,.mountCon,.allProducts,.centerAd,.promise,.allservers,.footCon,.mustBuybox{width: 1200px;margin: 0 auto;}
+a{color: #888}
+a:hover{color: #f4044a}
+/*headernews*/
+.headernews{width: 100%;height: 80px;background: #fda9ca;cursor: pointer;}
+.newsBox{height: 80px;position: relative;}
+.newsBox img{width: 100%;height: 100%;}
+.headernews .closenew{width: 20px;height: 20px;color: #707070;font-size: 18px;position: absolute;right: 8px;top:8px;line-height: 20px;text-align: center}
+.headernews .closenew:hover{background: #707070;color: aliceblue}
+
+/*header*/
+header{width: 100%;height: 30px;background: #f8f8f8;position: relative;z-index: 1000;}
+header .headerCon{height: 30px;}
+.headerConl{width: 211px;height: 30px;float: left;background: #f8f8f8}
+.headerConr{width: 505px;height: 30px;float: right;background: #f8f8f8}
+.headerCon li{height:28px;line-height: 28px;text-align: center;float: left;padding:0 9px;font-size: 12px;color: #888;position: relative;border : 1px solid #f8f8f8;border-bottom: 0;z-index: 100;}
+.headerConl li:nth-child(3) a{color: #d91e27;}
+header .headerCon .finds{position: absolute;display: none;background: #fff;border : 1px solid #bcbcbc;border-top: 0;top:29px;z-index: 1000;}
+.headerConl .myvip{width: 290px;height: 190px;left: -1px;}
+
+.myvip .myvipTop{width: 270px;height: 70px;padding-top: 10px;border-bottom: 1px solid #bcbcbc;margin: 0 10px;}
+.myvip .myvipTop img{width: 60px;height: 60px;display: block;float: left;margin-left: 10px}
+.myvip .myvipTop i{height:60px;float: left;line-height: 60px;margin-left: 10px;font-size: 12px}
+.myvip .myvipTop a{color: #1d519a}
+.myvip .myvipTop a:hover{color: #d91e27}
+.myvip .myvipBtom{width: 290px;height: 110px;position: relative;z-index: 1000;}
+.myvip .myvipBtom .club{height: 40px;width: 290px;}
+.myvip .myvipBtom .club b:nth-child(1){float: left;color: #000;font-size: 12px;margin-left: 10px;height: 40px;line-height: 40px}
+.myvip .myvipBtom .club b:nth-child(2){float: right;color: #707070;font-size: 12px;margin-right: 10px;height: 40px;line-height: 40px}
+.myvip .myvipBtom .clubCon{height: 70px;width: 290px;}
+.myvip .imgshow{width:290px;height:70px;position: relative;overflow: hidden;}
+.myvip .imgBoxp{height:70px;position: absolute}
+.myvip .imgBoxp .imgBox{height: 70px;width: 290px;float:left;}
+.myvip .imgBoxp img{width:210px;height:60px;margin: 5px 40px;}
+.myvip .imgshow span{display:block;width:20px;height:30px;text-align: center;line-height: 30px;font-size:30px;position:absolute;color:#bcbcbc;cursor: pointer;top:18px}
+.myvip .imgshow span:hover{color:#888}
+.myvip .imgshow span:nth-of-type(1){left:0;}
+.myvip .imgshow span:nth-of-type(2){right:9px;}
+
+
+.headerConr .mygome{width: 234px;height: 295px;left: -1px;}
+.mygome .mygomeTop{width: 210px;height: 84px;text-align: initial;margin: 0 12px;border-bottom: 1px solid #bcbcbc}
+.mygomeTop .mygomeTopt{width: 222px;height: 25px;font-weight: 900}
+.mygomeTop .mygomeTopt a{color: #1d519a}
+.mygomeTop .mygomeTopb{width: 222px;height: 60px;}
+.mygomeTop .mygomeTopb .mygomeTopbl{width: 111px;height: 60px;float: left;}
+.mygomeTop .mygomeTopb .mygomeTopbr{width: 111px;height: 60px;float: left;}
+.mygomeTop a{font-size: 12px;}
+.mygome .mygomeCon{width: 222px;height: 120px;margin-left: 12px}
+.mygome .mygomeCon>div{width: 55px;height: 60px;float: left;}
+.mygome .mygomeCon>div span{display: block;width: 55px;height: 30px;line-height: 30px;text-align: center;font-size: 12px}
+.mygome .mygomeBom{width: 224px;height: 90px;background: #f8f8f8;padding-left: 10px}
+.mygome .mygomeBom p:nth-child(1){width: 222px;height: 30px;line-height: 30px;font-size: 12px;color: #707070;text-align: initial}
+.mygome .mygomeBom p:nth-child(2) img{width: 55px;height: 40px;display: block;float: left;}
+
+.headerConr .purchase{width: 210px;height: 210px;right: -1px;}
+.purchase img{width:100%;height: 100%;}
+.headerConr .server{width: 218px;height: 184px;left: -1px;}
+.server .serverTop{width: 218px;height: 72px;}
+.server .serverTop ul{width: 218px;height: 24px;}
+.server .serverTop h3{width: 208px;height: 24px;font-size: 12px;font-weight: 900;text-align: initial;padding-left: 10px}
+.server .serverTop ul li{height: 24px;line-height: 24px;text-align: center;border: 0;}
+.server .serverBtm{width: 218px;height: 22px;}
+.server .serverBtm a{width: 192px;height: 22px;background: #dd00a7;color: #fff;line-height: 20px;text-align: center;font-size: 12px;margin: 9px 12px;display: block;}
+
+.headerConr .webnav{width: 1200px;height: 148px;right: -98px;padding: 26px 0;}
+.webnav>div{border-right: 1px solid #f8f8f8;padding: 0 12px;}
+.webnav .webnavFir{width: 256px;height: 148px;float: left;}
+.webnav .webnavSec{width: 406px;height: 148px;float: left;}
+.webnav .webnavThr{width: 184px;height: 148px;float: left;}
+.webnav .webnavFor{width: 106px;height: 148px;float: left;}
+.webnav .webnavFiv{width: 124px;height: 148px;float: left;border: 0;}
+.webnav div h3{height: 28px;text-align: initial;font-size: 14px;line-height: 28px;padding-left: 10px}
+.webnav .webnavCon ul{height: 100px;float: left;}
+.webnav .webnavCon ul li{height: 24px;line-height: 24px;font-size: 12px;border: 0;}
+.webnav .webnavFir ul{width: 85px;}
+.webnav .webnavSec ul{width: 81px;}
+.webnav .webnavThr ul{width: 92px;}
+.webnav .webnavFor ul{width: 106px;}
+.webnav .webnavFiv ul{width: 124px;}
+.webnav .webnavCon{height: 100px;}
+.headerConr .phonegome{width: 144px;height: 182px;right: -1px;}
+.headerConr .phonegome img{width: 100%;height: 100%;}
+.webMes{position: relative;}
+.webMes img{display: block;width: 15px;height: 20px;position: absolute;right: -8px;top:-3px;}
+header .headerCon .show{display: block}
+
+/*logo*/
+.logoBox{height: 88px;padding-top: 32px}
+.logoBoxl{height: 88px;width: 246px;float: left;}
+.logoBoxc{height: 88px;width: 780px;float: left;}
+.logoBoxc .Boxcon{width: 500px;height: 60px;margin:14px 0 0 140px;}
+.logoBoxc .Boxcon .Boxconl{width: 500px;height: 32px;position: relative;}
+.Boxcon .Boxconl .produ{width: 64px;height: 30px;position: relative;border: 1px solid #dd00a7;float: left;}
+.Boxcon .Boxconl .hideprodu{width: 64px;height: 120px;position: absolute;top: 30px;border: 1px solid #dd00a7;left: -1px;display: none;z-index: 10;}
+.Boxcon .Boxconl .produ span{display: block;width: 54px;height: 30px;line-height: 30px;padding-left: 10px;background: #fff;cursor: pointer;color: #a5a5a5;font-size: 14px}
+.Boxcon .Boxconl .hideprodu span:hover{background: #f1f1f1}
+.logoBoxc .Boxcon .Boxconl input{width: 346px;height: 30px;border: 1px solid #dd00a7;float: left;border-left: 0;color:#a5a5a5;}
+.logoBoxc .Boxcon ul{width: 500px;height: 28px;}
+.logoBoxc .Boxcon ul li{float: left;font-size: 12px;height: 28px;line-height: 28px;margin: 0 4px;}
+.Boxcon .Boxconl a{display: block;width: 87px;height: 32px;background: #dd00a7;float: left;line-height: 32px;color: #fff;text-align: center;font-size: 16px}
+.Boxcon ul li a{color: #a5a5a5}
+.Boxcon ul li a:hover{color: #d91e27}
+.logoBoxr{height: 60px;width: 174px;float: left;}
+.logoBoxr .cars{width: 130px;height: 30px;background:#fff;margin: 15px 0 0 22px;position: relative;}
+.logoBoxr .cars span{display:block;height: 30px;line-height: 30px;text-align: center;font-size: 14px;position: relative;z-index: 9;background:#fff;}
+.logoBoxr .cars span b{font-size: 12px}
+.logoBoxr .cars .hidecar{width: 255px;height: 90px;background: #fff;position: absolute;right: 0;top:30px;box-shadow: 0px 0px 27px -15px #707070;display: none;z-index: 5;}
+.logoBoxr .cars .show{display: block}
+.logoBoxl img{display: block;float: left;height: 56px;}
+
+/* nav */
+.navBox{height: 40px;background: #f8f8f8;width: 100%;border-bottom: 1px solid #dd00a7;}
+.navBox .navCon{height: 40px;}
+.navCon .navConl{height: 40px;width: 185px;background:#f1f1f1;float: left;color: #686868;padding-left:15px;line-height: 40px;font-size: 14px;font-weight: 900;}
+.navCon .navConc{height: 40px;width: 820px;float: left;}
+.navCon .navConc ul{width: 508px;height: 40px;padding-top:13px;}
+.navCon .navConc ul li{height: 14px;line-height: 14px;float: left;font-size: 14px;padding: 0 13px;}
+.navCon .navConc ul li a{color: #000}
+.navCon .navConc ul li a:hover{color:#d91e27}
+.navCon .navConc ul .navbor{border-right: 1px solid #b2b2b2}
+.navCon .navConr{height: 40px;width: 180px;float: left;}
+.navCon .navConr .swiper1{width:180px;height:40px;}
+.swiper-container img{display:block;width:180px;height:40px;}
+
+/* banner */
+.bannerBox{width: 100%;min-height: 450px;background: #072237;transition: 1s;position: relative;}
+.banner{height: 450px;}
+.banner .bannerLef{width: 200px;min-height: 450px;float: left;}
+.banner .bannerCon{width: 750px;height: 450px;float: left;}
+.bannerLef .contents{width: 200px;min-height: 450px;position: relative;}
+.bannerLef .contents>li{width: 184px;height: 30px;line-height: 30px;padding-left: 16px;background: rgba(0,0,0,.6);}
+.bannerLef li a{color: #fff;font-size: 14px;margin-right: 5px;font-weight: 200}
+.bannerLef ul>li:hover{background: #f8f8f8}
+.bannerLef ul>li:hover a{color: #000}
+.bannerLef .contents>li a:hover{color: #d91e27}
+.bannerLef .contents .contentCon{width: 1000px;min-height: 450px;background: #fff;position: absolute;left: 200px;top:0;z-index: 1000;display: none}
+.bannerLef .contents .contentCon li{cursor: pointer;}
+.contents .contentCon .tentConl{width: 770px;min-height: 450px;float: left;padding-left: 20px;background: #f8f8f8;border:1px solid #a5a5a5;border-width: 1px 0; }
+.contentCon .tentConl .tentConltop{width: 770px;height: 35px;padding-top: 20px}
+.tentConl .tentConltop li{height: 20px;background: #d91e27;line-height: 20px;margin-right: 10px;float: left;color: #fff;font-size: 12px;font-weight: 900;cursor: pointer;padding: 0 2px;}
+.tentConl .tentConltop li:hover{background: #be1c0d;}
+.contentCon .tentConl .tentconbom{width: 770px;min-height: 395px;}
+.contentCon .tentConl .tentconbom li:hover{color: #d91e27}
+.tentConl .tentconbom .conbomBox{width: 770px;font-size: 12px;}
+.tentConl .tentconbom .conbomBox p{width: 60px;float: left;font-weight: 900;margin-top: 3px;}
+.tentConl .tentconbom .conbomBox ul{width: 710px;float: left;padding: 8px 0;border-bottom: 1px solid #e7e5e5}
+.tentConl .tentconbom .conbomBox li{height: 14px;line-height: 14px;float: left;padding: 0 8px;border-left: 1px solid #a5a5a5;margin: 5px 0;}
+.contents .contentCon .tentConr{width: 210px;min-height: 450px;float: left;position: relative;}
+.contentCon .tentConr .conrImgs{width: 210px;border-bottom: 1px solid #e7e5e5;overflow: hidden;}
+.contentCon .tentConr .conrImgs img{display: block;width: 70px;height: 35px;float: left;margin:12px 17px}
+.contentCon .tentConr>img{display: block;width: 210px;position: absolute;bottom: 0;}
+
+.banner .bannerRig{width: 250px;height: 434px;background:rgba(255,255,255,0.9);float: left;margin: 8px 0}
+.bannerRig .rigTop{width: 235px;height: 150px;padding-left: 15px;}
+.bannerRig .rigTop div{width:235px;height: 28px;margin-bottom: 7px;font-size: 14px;line-height: 28px;}
+.bannerRig .rigTop div h3{height: 28px;float: left;}
+.bannerRig .rigTop div a{display: block;float: right;height: 28px;}
+.bannerRig .rigTop ul{border-bottom: 1px dashed #ccc;margin-right: 15px;height: 110px;}
+.bannerRig .rigTop li{height: 26px;line-height: 26px;font-size: 12px;}
+.bannerRig .rigCon{width: 250px;height: 154px;}
+.bannerRig .rigCon span{width: 83px;height: 77px;display: block;float: left;line-height: 77px;font-size: 12px;text-align: center}
+.bannerRig .rigBom{width: 250px;height: 130px;}
+.bannerRig .rigBom img{width: 100%;height: 100%;}
+
+.bannerShow{width:750px;height:450px;position: relative;}
+.bannerShow img{width:750px;height:450px;position: absolute;top:0;left: 0;opacity: 0;transition: 1s;}
+.bannerShow .toshow{opacity: 1;}
+.bannerShow span{display:block;width:40px;height:80px;background: rgba(0,0,0,.2);text-align: center;line-height: 80px;font-size:36px;position:absolute;top:185px;color:rgb(228, 218, 218);cursor: pointer;font-weight: 100}
+.bannerShow span:hover{background: rgba(0,0,0,.4)}
+.bannerShow span:nth-of-type(1){right: 42px;}
+.bannerShow span:nth-of-type(2){right:0;}
+.bannerShow .radiusBox{width:100%;height:5px;position: absolute;bottom:16px;display:flex;justify-content: center;}
+.bannerShow .radiusBox li{width:30px;height:5px;background:rgba(0,0,0,.6);margin:0 8px;cursor: pointer;}
+.bannerShow .radiusBox .active{background:#f5004b;}
+
+/* robShops */
+.shopsBox{height: 250px;margin-top: 20px;}
+.shopsBox .robShops{height: 248px;width: 948px;margin-right: 10px;float: left;border: 1px solid #e6e6e6}
+.shopsBox .robShops .robTop{width: 933px;height: 38px;padding-left: 15px;border-top:1px solid #be1c0d ;border-bottom: 1px solid #e6e6e6}
+.shopsBox .robShops .robTop h3{width: 105px;height: 38px;float: left;font-size: 20px;line-height: 38px;text-align: center;color: #dd00a7}
+.shopsBox .robShops .robTop h3{color: #f4044a}
+.shopsBox .robShops .robTop .robTime{width: 240px;height: 38px;float: right;}
+.robShops .robTop .robTime b{display: block;height: 38px;width:85px;float: left;font-size: 14px;color: #f4044a;line-height: 38px;}
+.robShops .robTop .robTime time{display: block;height: 33px;width:145px;float: left;margin-left: 10px;padding-top: 5px;font-size: 22px}
+.robTop .robTime time span{display: block;height: 28px;width: 28px;float: left;background: #f4044a;color: #fff;text-align: center;line-height: 28px;border-radius: 5px;}
+.robTop .robTime time i{display: block;height: 28px;width: 15px;float: left;line-height: 28px;color: #f4044a;text-align: center}
+.shopsBox .robShops .robBom{width: 948px;height: 180px;padding: 15px 0;position: relative;}
+.robShops .robBom .robBomc{width: 948px;height: 180px;}
+.robShops .robBomc>div{height: 180px;width: 216px;float: left;border-left: 1px dashed #e6e6e6;padding-left: 20px} 
+.robShops .robBomc>div img{margin-left: 40px;}
+.robShops .robBomc div span:nth-child(1){font-size: 18px;height: 40px;margin-right: 5px;line-height: 40px;color: #f00}
+.robShops .robBomc div span:nth-child(2){font-size: 12px;height: 40px;line-height: 40px;color: #aab0b0;text-decoration: line-through}
+.robShops .robBomc>div h3{width: 180px;overflow: hidden;;height: 18px;font-size: 14px;color: #8f9595;line-height: 18px;}
+.robShops .robBomc>div:nth-child(1){border: 0}
+.robBom .robspa{width: 25px;height: 50px;background: rgba(0,0,0,.2);position: absolute;color: #fff;line-height: 50px;font-size: 18px;text-align: center;display: none;cursor: pointer;}
+.shopsBox .robShops:hover .robspa{display: block}
+.robBom .robspa:hover{background: rgba(0,0,0,.5)}
+.robBom .robspa:nth-of-type(1){left: 0;top:80px;}
+.robBom .robspa:nth-of-type(2){right: 0;top: 80px;}
+.shopsBox .shopShow{height: 250px;width: 240px;float: left;}
+.shopsBox .shopShow img{height: 100%;width: 100%;display: block}
+
+/* products */
+.prods{height: 480px;margin-bottom: 20px}
+.prods .prodsTop{height: 60px;width:1200px;}
+.prods .prodsTop img{height: 100%;width: 100%}
+.prods .prodsBom{height: 420px;width: 1200px}
+.prods .prodsBom .prodsBomL{width: 418px;height: 419px;margin-right: 10px;float: left;border: 1px solid #e6e6e6}
+.prodsBom .prodsBomL .pBomll{width: 219px;height: 418px;float: left;}
+.prodsBom .prodsBomL .pBomlr{width: 199px;height: 418px;float: left;}
+.prodsBom .prodsBomL .pBomlr a:nth-of-type(1) img{border-bottom: 1px dashed #eee;}
+.prods .prodsBom .prodsBomR{width: 338px;height: 419px;float: left;border: 1px solid #e6e6e6}
+.prodsBomR .pbomRl{width: 219px;height: 418px;float: left;}
+.prodsBomR .pbomRl img:nth-child(1){border-bottom: 1px dashed #eee}
+.prodsBomR .pbomRr{width: 118px;height: 418px;float: left;}
+.prodsBomR .pbomRr div{width: 100px;height: 30px;border-bottom: 1px dashed #eee;border-left: 1px solid #eee;padding:15px 9px 14px;}
+.prodsBomR .pbomRr div:nth-last-child(1){border-bottom: 0;}
+.prodsBomR .pbomRr img{display: block;width: 100px;height: 30px;}
+
+/* coupon */
+.coupon{height: 110px;margin-bottom: 30px}
+.coupon a img{display: block;float: left;width: 207px;height: 110px;border-right: 1px dashed #e6e6e6} 
+.coupon a:nth-child(1) img{width: 122px;border: 0}
+.coupon a:nth-last-child(1) img{width: 39px;border: 0}
+.coupon a:nth-last-child(2) img{border: 0}
+
+/* mustBuy */
+.mustBuy{width: 100%;height: 430px;background: #f7f7f7}
+.mustBuybox{height: 430px;}
+.mustBuyCon{height: 430px;width: 952px;float: left;}
+.mustBuyaside{height: 430px;width: 248px;float: left;}
+.buymenu{width: 952px;height: 40px;padding-top: 20px;overflow: hidden;}
+.mustBuyaside .buymenu{width: 248px}
+.buymenu h3{height: 40px;font-size: 18px;line-height: 40px;float: left;}
+.buymenu h4{height: 40px;font-size: 12px;line-height: 40px;float: right}
+.mustBuyCon .buyPros{width: 952px;height: 370px;}
+.mustBuyCon .buyPros>div{height: 340px;float: left;width: 306px;margin-right: 11px;}
+.mustBuyCon .buyPros>div img{width: 306px;height: 180px;}
+.mustBuyCon .buyPros>div p:nth-of-type(1){height: 54px;font-size: 16px;line-height: 54px;}
+.mustBuyCon .buyPros>div p:nth-of-type(1) a{color: #000000}
+.mustBuyCon .buyPros>div p:nth-of-type(1) a:hover{color: #d91e27}
+.mustBuyCon .buyPros>div p:nth-of-type(2){font-size: 12px;margin-right: 20px}
+.mustBuyCon .buyPros>div p:nth-of-type(3){height: 58px;font-size: 14px;;line-height: 58px;}
+.mustBuyCon .buyPros>div p:nth-of-type(3) i{color: #888}
+.mustBuyCon .buyPros>div p:nth-of-type(3) i:nth-child(2){margin-left: 30px}
+.mustBuyCon .buyPros>div p{margin-left: 20px;}
+.mustBuyaside div:nth-child(2){height: 324px;width:216px;padding: 16px 16px 0 16px;}
+.mustBuyaside div:nth-child(2) figure{height: 170px;width:216px;border-bottom: 1px dashed #a5a5a5}
+.mustBuyaside div:nth-child(2) figure figcaption{height: 33px;padding-top: 15px;width: 232px}
+.mustBuyaside figure figcaption span{height: 18px;width: 30px;line-height: 18px;font-size: 12px;background: #ff7612;color: #fff;display: block;float: left;text-align: center;border-radius: 2px;cursor: pointer;}
+.mustBuyaside figure figcaption a{display: block;height: 18px;line-height: 18px;margin-left: 15px;float: left;font-size: 12px;}
+.mustBuyaside figure figcaption a:nth-of-type(1){color: #000;margin-left: 5px}
+.mustBuyaside div:nth-child(2) ul{width: 216px;height: 140px;padding-top: 14px}
+.mustBuyaside div:nth-child(2) ul li{height: 22px;font-size: 12px;line-height: 22px;width: 216px}
+/* productFirst */
+.allProducts{height: 541px;}
+.allProducts .allProsTop{width: 1200px;height: 30px;padding-top: 40px}
+.allProducts .allProsTop h2{height: 30px;float: left;font-size: 16px}
+.allProducts .allProsTop ul{height: 30px;float: right}
+.allProducts .allProsTop ul li{height: 30px;float: left;width: 86px;line-height: 30px;text-align: center;color: #5e5e5e;cursor: pointer;}
+.allProducts .allProsTop ul li:nth-child(1) {background: #719ef7;color: #fff}
+.allProducts .allProsBom{width: 1200px;height: 470px;border-top: 1px solid #719ef7}
+.allProducts .allProsBom .prosBoml{width: 210px;height: 470px;background: #7ca5f5;float: left}
+.allProsBom .prosBoml div:nth-of-type(1){width: 195px;height: 32px;background: #6294f6;color: #fff;line-height: 32px;padding-left: 15px;} 
+.allProsBom .prosBoml div:nth-of-type(2){width: 195px;height: 151px;padding-left: 15px}
+.allProsBom .prosBoml div:nth-of-type(2) ul{height: 152px;float: left;margin-right: 12px;}
+.allProsBom .prosBoml div:nth-of-type(2) ul li{height: 28px;line-height: 28px;text-align: center;font-size: 12px;color: #fff;}
+.allProsBom .prosBoml a{color: #fff;font-size: 12px}
+.allProsBom .prosBoml b{font-size: 12px}
+.allProsBom .prosBoml a:hover{text-decoration: underline}
+.allProsBom .prosBoml img{display: block;width: 210px;height: 287px;}
+.allProducts .allProsBom .prosBomr{width: 990px;height: 470px;float: left;border-bottom: 1px solid #eee}
+/* 第一个画面 */
+.allProsBom .prosBomr .prosChose{width: 990px;height: 470px;display: none}
+.allProsBom .prosBomr .proCshow{display: block}
+.prosBomr .prosChose .prosLeft{width: 390px;height: 470px;float: left;position: relative;}
+.prosBomr .prosChose .prosLeft .prosBanner{width: 390px;height: 470px;position: relative;}
+.prosChose .prosLeft .prosBanner img{width: 100%;height: 100%;position: absolute;top:0;left: 0;opacity: 0;transition: 1s;}
+.prosChose .prosLeft .prosBanner .toshows{opacity: 1;}
+.prosBanner span{display:block;width:40px;height:80px;background: rgba(0,0,0,.2);text-align: center;line-height: 80px;font-size:36px;position:absolute;top:185px;color:rgb(228, 218, 218);cursor: pointer;font-weight: 100}
+.prosBanner span:hover{background: rgba(0,0,0,.4)}
+.prosBanner span:nth-of-type(1){left: 0;}
+.prosBanner span:nth-of-type(2){right:0;}
+.prosBanner .proradiusBox{width:100%;height:5px;position: absolute;bottom:127px;display:flex;justify-content: center;}
+.prosBanner .proradiusBox li{width:18px;height:4px;background:rgba(0,0,0,.6);margin:0 2px;cursor: pointer;}
+.prosBanner .proradiusBox .active{background:#f5004b;}
+.prosChose .prosLeft div{width: 369px;height: 101px;position: absolute;bottom: 11px;left: 11px;}
+.prosChose .prosLeft div a{display: block;width: 100px;height: 30px;background: #fff;float: left;margin: 0 1px 1px 0;padding:10px 11px;opacity: 0.8;transition: 0.5s;}
+.prosChose .prosLeft div a:hover{opacity: 1;}
+.prosBomr .prosChose .prosRight{width: 600px;height: 470px;float: left;}
+.prosChose .prosRight .topimgr{width: 600px;height: 235px;}
+.prosChose .prosRight .bomimgr{width: 600px;height: 235px;}
+.prosChose .prosRight img{float: left;width: 199px;height: 234px;border: 1px solid #eee;border-width: 0 1px 1px 0;}
+.prosChose .prosRight .bomimgr img{border-bottom: 0;}
+/* 剩余的四个画面 */
+.prosBomr .choseData a{display: block;float: left;width: 197px;height: 224px;border: 1px solid #eee;border-width: 0 1px 1px 0;padding-top: 10px;}
+.prosBomr .choseData a img{margin-left: 33px;}
+.prosBomr .choseData a h3{font-size: 12px;color: #404040;padding-left: 20px;height: 64px;line-height: 64px}
+.prosBomr .choseData a h3:hover{color: #f4044a}
+.prosBomr .choseData a p{color: #f4044a;padding-left: 20px;height: 20px;line-height: 20px;font-size: 14px}
+.centerAd{height: 100px;margin-top: 20px}
+
+/* promise */
+.promise{height:40px;background: #f5f5f5;font-size: 16px;color: #d1a5a5;margin-top: 30px;padding: 16px 0;}
+.promise>div{width:270px;height: 40px;margin:0 65px;float: left;}
+.promise>div img{display: block;width:40px;height: 40px;float: left;}
+.promise>div h3{height: 40px;line-height: 40px;margin-left: 12px;float: left}
+.promise>div h3 a{color: #404040;font-weight: 900}
+.promise>div h3 a:hover{color: #f4044a}
+.promise>div span{width: 36px;height: 40px;line-height: 40px;text-align: center;color: #898989;display: block;float: left;}
+.promise>div p{height: 40px;line-height: 40px;float: left;}
+.promise>div p a{color: #404040;}
+.promise>div p a:hover{color: #f4044a}
+
+/* allservers */
+.allservers{height: 165px;}
+.allservers ul{height: 150px;margin: 0 80px;float: left;padding-top: 15px;}
+.allservers ul li{height: 22px;line-height: 22px;}
+.allservers ul li a{font-size: 12px;}
+.allservers ul li:nth-child(1){height: 26px;line-height: 26px}
+.allservers ul li:nth-child(1) a{font-size: 16px;color: #5e5e5e}
+.allservers ul li a:hover{color: #d91e27}
+
+/* footer */
+footer{width: 100%;height: 314px;border-top: 1px solid #dd00a7;background: #f7f7f7}
+footer .footCon{height: 314px;}
+footer .footCont{height: 242px;width: 1200px;border-bottom: 1px solid #e6e6e6}
+footer .footConb{height: 60px;width: 1200px;padding-top: 12px;}
+footer .footConb a{display: block;height: 30px;margin-right: 32px;float: left;}
+footer .footConb a img{float: left;}
+footer .footConb a div{font-size: 12px;margin-left: 12px;float: left;}
+
+footer .footConl{width: 965px;height: 242px;float: left;}
+footer .footConl .footConltop{height: 85px;width: 965px;padding-top: 20px}
+footer .footConl .footConltop>div{height: 46px;float: left;}
+footer .footConl .footConltop>div:nth-child(2){margin-left: 116px}
+footer .footConl .footConltop>div img{float: left;}
+footer .footConl .footConltop>div div{height: 46px;float: left;margin-left: 12px;}
+footer .footConl .footConltop>div div p:nth-child(1){font-size:16px;color: #333333;height: 26px;line-height: 26px}
+footer .footConl .footConltop>div div p:nth-child(2){font-size:12px;height: 20px;line-height: 20px;}
+footer .footConl .footConlbom{height: 137px;width: 965px;}
+.footConl .footConlbom .footconlbt{height: 16px;width: 965px;padding-top: 4px}
+.footConl .footConlbom .footconlbt ul{height: 12px;float: left;border-right: 1px solid #d4ccd4;line-height: 12px;}
+.footConl .footConlbom .footconlbt ul:nth-child(2){margin-left: 13px;}
+.footConl .footConlbom .footconlbt ul:nth-child(3){border: 0;margin-left: 13px}
+.footConl .footConlbom .footconlbt ul li{float: left;margin-right:13px;}
+.footConlbom .footconlbt ul li a{display:block;font-size: 12px;color: #666;}
+.footConlbom .footconlbt ul li a:hover{color: #d91e27}
+.footConl .footConlbom .footconlbb{height: 117px;width: 965px;}
+.footConlbom .footconlbb p{height: 22px;line-height: 22px;font-size: 12px;color: #888}
+footer .footConr{width: 235px;height: 226px;float: left;padding-top: 16px}
+footer .footConr div:nth-child(1){height: 60px;width: 145px;float: left;}
+footer .footConr div:nth-child(2){height: 60px;width: 90px;float: left;}
+footer .footConr div figure{float: left;margin: 0 12px;font-size: 12px}
+footer .footConr div figure figcaption{height: 21px;line-height: 21px;}
+footer .footConr div figure:nth-child(1){position: relative;}
+footer .footConr div figure .smgz1{border: 1px solid #eee;position: absolute;bottom: 50px;left:-60px;display: none}
+footer .footConr div figure:nth-child(2){position: relative;}
+footer .footConr div figure .smgz2{border: 1px solid #eee;position: absolute;bottom: 50px;left:-50px;display: none}
+footer .footConr div figure:nth-child(1):hover .smgz1{display: block}
+footer .footConr div figure:nth-child(2):hover .smgz2{display: block}
+footer .footConr div p{height: 22px;font-size: 12px;line-height: 22px;text-align: center}
+
+
+/*mounting-吸顶*/
+.mounting{height: 50px;width: 100%;background: #fff;opacity: 0.9;box-shadow: 0 1px 5px rgba(0,0,0,.2);position: fixed;z-index: 900;top: 0;display: none;}
+.mounting .mountCon{height: 50px;}
+.mounting .mountCon .mountmenu{height: 40px;width: 170px;background: #dedede;margin-top: 5px;padding: 0 15px;cursor: pointer;}
+.mounting .mountCon .mountmenu h3{height: 40px;line-height: 40px;float: left;font-weight: 700;color: #686868;font-size: 15px}
+.mounting .mountCon .mountmenu i{height: 40px;line-height: 40px;float: right;}
+
+/*asideRight右侧功能区*/
+.asideRight{width: 35px;height: 100%;position: fixed;top: 0;right: 0;background: #5c5c5c;z-index: 1000;}
+.asideRight .asideTop{width: 35px;height: 197px;position: absolute;top:46px;font-size: 12px;color: #fff;cursor: pointer;}
+.asideRight .asideTop ul li{position: relative;}
+.asideRight .asideTop ul li i:hover{background: #292929;}
+.asideRight .asideTop ul li i{display:block;width: 35px;background: #5c5c5c url(../images/bjx.jpg) no-repeat;background-position: bottom center;position: relative;z-index: 1000;}
+.asideRight .asideTop ul li:nth-child(1) i{height: 39px;line-height: 39px;text-align: center;}
+.asideRight .asideTop ul li:nth-child(2) i{height: 90px;text-align: center;padding-top: 30px}
+.asideRight .asideTop ul li:nth-child(3) i{height: 38px;line-height: 39px;text-align: center;background-image: none}
+
+.asideRight .asideBom{width: 35px;position: absolute;bottom:35px;font-size: 12px}
+.asideRight .asideBom ul li{position: relative;}
+.asideRight .asideBom ul li i{cursor: pointer;display: block;height: 38px;width: 35px;line-height: 38px;text-align: center;color: #fff;background: #5c5c5c;position: relative;z-index: 1000;}
+.asideRight .asideBom ul li:hover i{background: #292929;}
+.asideRight .asideBom ul li:nth-child(1) i:hover{background:  #5c5c5c}
+.asideRight li p{height: 36px;width: 78px;border: 1px solid #e6e6e6;position: absolute;top:0;z-index: 900;background:#fff;line-height: 36px;text-align: center;font-size: 12;color: #707070}
+.asideRight .asideBom img{display:block;width: 143px;height: 184px;position: absolute;top:-38px;z-index: 800;left: 0;}
+.asideRight .asideTop li p{height: 35px;line-height: 35px;text-align: center;}
+/*asideLeft左侧锚点*/
+.asideLeft{width: 66px;height: 318px;position: fixed;left: -1px;top: 133px;border: 1px solid #c4c7c6;display: none}
+.asideLeft div:nth-of-type(1){width: 66px;height: 32px;font-size: 14px;font-weight: 900;line-height: 32px;background: #dce1e4;text-align: center;color: #333;}
+.asideLeft ul{width: 66px;height: 225px;}
+.asideLeft ul li{width: 66px;height: 37px;border-bottom: 1px solid #c4c7c6;color: #5e5e5e;text-align: center;font-size: 12px;padding-top: 7px;cursor: pointer;background: #fff}
+.asideLeft ul li:hover{color: #f4044a}
+.asideLeft ul li b{width:66px;height: 15px;line-height: 15px;display: block;}
+.asideLeft .asidespans{width: 66px;height: 62px}
+.asideLeft .asidespans span{display: block;height: 30px;width: 66px;font-size: 20px;line-height: 30px;color: #333;text-align: center;border-bottom:1px solid #c4c7c6 ;cursor: pointer;background: #fff;}
+.asideLeft .asidespans span:hover{color: #f4044a}
+.asideLeft .asidespans span:nth-child(2){border: 0;}
+.asideLeft ul .focus{color: #f4044a;background: url(../images/hssj.png) no-repeat;background-position: top left;}
+
+
+
